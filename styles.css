@@ -83,3 +83,11 @@ h1 {
     margin-left: 1em;
     order: 1;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px;
+}
