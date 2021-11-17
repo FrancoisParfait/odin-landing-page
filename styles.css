@@ -4,7 +4,7 @@ body {
 }
 
 
-.hero, .footer {
+.hero, .header, .footer {
     background-color: #1F2937;
     color: white;
 }
@@ -15,7 +15,7 @@ ul {
     gap: 16px;
 }
 
-.links {
+.links, .subtext {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -41,13 +41,17 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
-.hero-container {
+.hero {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    max-width: min-content;
+    padding: 50px;
+}
+
+.hero-content {
+    flex: 1;
 }
 
 .sign-up {
@@ -60,4 +64,6 @@ h1 {
 .resize {
     width: 450px;
     height: auto;
+    margin-left: 1em;
+    order: 1;
 }
