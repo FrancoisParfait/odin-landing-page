@@ -91,3 +91,27 @@ h1 {
     gap: 8px;
     padding: 24px;
 }
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.information-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-weight: lighter;
+}
+
+.info-images {
+    width: 100px;
+    height: 100px;
+}
+
+.info {
+    max-width: 200px;
+}
