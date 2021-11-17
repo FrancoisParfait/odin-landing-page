@@ -27,9 +27,14 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 4px;
+    align-items: center;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.links {
+    margin-left: auto;
 }
 
 .logo {
@@ -48,6 +53,10 @@ h1 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
 }
 
 .hero-content {
