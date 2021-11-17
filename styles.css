@@ -4,7 +4,7 @@ body {
 }
 
 
-.hero, .header, .footer {
+.top-background, .footer {
     background-color: #1F2937;
     color: white;
 }
@@ -47,10 +47,16 @@ h1 {
 .hero {
     display: flex;
     align-items: flex-start;
+    justify-content: center;
 }
 
 .hero-content {
     flex: 1;
+}
+
+.top-background {
+    display: flex;
+    flex-direction: column;
 }
 
 .sign-up {
