@@ -142,7 +142,7 @@ h2 {
     color: white;
     width: 950px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     border-radius: 5px;
     padding: 48px;
     margin-left: auto;
