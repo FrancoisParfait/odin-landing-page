@@ -136,3 +136,36 @@ h2 {
     font-style: normal;
     padding-top: 16px;
 }
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    width: 950px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 5px;
+    padding: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.action {
+    flex: 1;
+}
+
+.action-sign-up {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 4px;
+    width: 90px;
+    margin-left: 1em;
+    order: 1;
+}
+
+.action-text-1 {
+    font-weight: bold;
+    font-size: 20px;
+}
