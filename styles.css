@@ -80,7 +80,6 @@ h1 {
     height: auto;
     margin-left: 1em;
     order: 1;
-    min-width: auto;
 }
 
 .footer {
@@ -118,9 +117,8 @@ h2 {
 .inspiration {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    text-align: center;
+    padding: 200px 300px;
 }
 
 .quote {
@@ -134,6 +132,7 @@ h2 {
     font-weight: bold;
     font-style: normal;
     padding-top: 16px;
+    text-align: end;
 }
 
 .call-to-action {
